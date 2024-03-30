@@ -1,0 +1,93 @@
+/*
+---01 Typography System
+
+-Font Family : "Raleway",Dancing Script
+default : san-serif
+
+
+header
+  -hero         -false
+  -about        -true
+  -skill        -true 
+  -contact      -true
+ 
+
+/***************************/
+/* General Components */
+/***************************/
+
+:root {
+    --bg-secondary: #2561f7e3;
+    --primary-shade: #ffbf00;
+    --text: #333;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    color: var(--text);
+    overflow-x: hidden;
+  }
+  
+  P {
+    color: var(--text);
+  }
+  
+  .line {
+    width: 200px;
+    height: 45px;
+    position: relative;
+  }
+  
+  .line::before,
+  .line::after {
+    content: "";
+    align-content: center;
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: var(--primary-shade);
+    width: 43%;
+    top: 20%;
+  }
+  
+  .line-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .line::before {
+    right: 0;
+  }
+  
+  .line::after {
+    left: 0;
+  }
+  
+  .diamond {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ffbf00;
+    text-align: center;
+    transform: rotate(45deg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  

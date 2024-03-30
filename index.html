@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>  
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS style -->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar sticky bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand brand-name text-primary" href="#">
+          Hsu Myat Noe
+        </a>
+        <button
+          class="navbar-toggler bg-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+           <ul
+            class="navbar-nav me-auto ms-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 120px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation bar -->
+
+    <!-- Home Section -->
+    <section class="home bg-light mt-5" id="home">
+      <div class="container pt-lg-5 pt-md-4 pt-sm-4 pt-xs-2">
+        <div class="row g-lg-2 g-md-3 g-sm-4 g-xs-5 justify-content-center">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 my-5">
+              <div class="text-center mt-lg-5 mt-4">
+                <p class="hero_title">Hello, I'm</p>
+                <h1 class="text-primary">Web Developer</h1>
+                <p class="hero_desc">It's me Hsu. I am junior web developer in Myanmar. I am just a learner.</p>
+                <a href="#about" class="btn btn-primary mt-2">
+                  About Me
+                </a>
+              </div>
+            </div>
+
+            <div class="col-6 mt-lg-5 mt-md-5 mt-4" style="height: 25rem">
+            <img src="./images/my-picture1.jpg" alt="My picture" class="hero-img h-75 mx-auto d-block" style="max-width: 100%; height: auto;object-fit: contain;">
+            </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
+        <path fill="#2561f7e3" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,218.7C384,203,480,117,576,96C672,75,768,117,864,149.3C960,181,1056,203,1152,186.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+    <!-- Home Section -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container pt-5">
+        <div class="container bg-light">
+          <div class="row py-5">
+            <h2 class="text-center text-primary">About Me</h2>
+            <div class="line-div">
+              <div class="line">
+                <div class="diamond"></div>
+              </div>
+            </div> 
+          </div>
+          <div class="row g-5 pb-5">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12" style="height: 25rem">
+              <img src="./images/my-picture.jpg" alt="My picture" class="my-picture h-100 mx-auto d-block" style="max-width: 100%; height: auto;object-fit: contain;">
+            </div>
+        
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+              <h3 class="brand-name text-primary mb-3">
+                Hsu Myat Noe
+              </h3>
+              <p class="mb-3">
+                Junior Web Developer specializing in front end development. Learned and studied with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, CSS, Bootstrap, JavaScript, MySQL. Strong background in web design principles.
+              </p>
+              <table class="table">
+                <tr>
+                  <td>Date of birth :</td>
+                  <td>August 21, 2001</a></td>
+                </tr>
+                <tr>
+                  <td>Email :</td>
+                  <td>
+                    <a href="mailto:hsumyatnoe2182001" class="to-me">
+                    hsumyatnoe2182001
+                    </a>
+                </td>
+                </tr>
+                <tr>
+                  <td>Address :</td>
+                  <td>No(12), Padaythar Road, Kamayuat Township, Yangon</td>
+                </tr>
+                <tr>
+                  <td>Phone :</td>
+                  <td>
+                    <a href="tel:+95983090112" class="to-me">+95 983090112
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <a href="./cv/hsumyatnoecv.pdf" class="btn btn-primary mt-2 mb-5">
+                Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
+        <path fill="#fff" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,218.7C384,203,480,117,576,96C672,75,768,117,864,149.3C960,181,1056,203,1152,186.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+    <!-- About Section -->
+
+    <!-- Skill section -->
+    <section class="skill" id="skill">
+      <div class="container pt-5">
+        <div class="row">
+          <h2 class="text-center text-primary">My Skill</h2>
+          <div class="line-div">
+              <div class="line">
+                <div class="diamond"></div>
+              </div>
+            </div>
+          <p class="text-center mt-3">
+            I'm studying and learning other programming languages liked React, PHP and Laravel.
+          </p>
+        </div>
+        <div class="row">
+         <div class="col-lg-6">
+          <small class="text-muted">HTML</small>
+          <div class="progress mb-4 mt-2" style="height: 5px">
+            <div data-aos-duration="1000" data-aos="fade-right" class="progress-bar progress-bar-striped
+                  progress-bar-animated bg-primary"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 80%">
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-6">
+          <small class="text-muted">CSS</small>
+          <div class="progress mb-4 mt-2" style="height: 5px">
+            <div data-aos-duration="1800" data-aos="fade-right" class="progress-bar progress-bar-striped
+                  progress-bar-animated bg-primary"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 70%">
+            </div>
+          </div>
+          </div>
+         <div class="col-lg-6">
+          <small class="text-muted">Bootstrap</small>
+          <div class="progress mb-4 mt-2" style="height: 5px">
+            <div data-aos-duration="2800" data-aos="fade-right" class="progress-bar progress-bar-striped
+                        progress-bar-animated bg-primary"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 50%">
+            </div>
+          </div>
+          
+        </div>
+         <div class="col-lg-6">
+          <small class="text-muted">JavaScript</small>
+          <div data-aos-duration="3800" data-aos="fade-right" class="progress mb-4 mt-2" style="height: 5px">
+            <div class="progress-bar progress-bar-striped
+                        progress-bar-animated bg-primary"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 40%">
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-6">
+          <small class="text-muted">Java</small>
+          <div data-aos-duration="4800" data-aos="fade-right" class="progress mb-4 mt-2" style="height: 5px">
+            <div class="progress-bar progress-bar-striped
+                        progress-bar-animated bg-primary"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 30%">
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-6">
+          <small class="text-muted">PHP</small>
+          <div data-aos-duration="5800" data-aos="fade-right" class="progress mb-4 mt-2" style="height: 5px">
+            <div class="progress-bar progress-bar-striped
+                        progress-bar-animated bg-primary"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 20%">
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
+        <path fill="#2561f7e3" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,218.7C384,203,480,117,576,96C672,75,768,117,864,149.3C960,181,1056,203,1152,186.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+    <!-- Skill section -->
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">    
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center">Contact Me</h2>
+          <div class="line-div">
+              <div class="line">
+                <div class="diamond"></div>
+              </div>
+            </div> 
+        </div>
+       <div class="row mt-5">
+        <div class="col-lg-8">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="fullName" class="form-label">
+                FULL NAME
+              </label>
+              <input type="text" class="form-control" id="fullName" placeholder="Name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">EMAIL</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">
+                ADDRESS
+              </label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="subject" class="form-label">
+                SUBJECT
+              </label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <div class="col-md-12">
+              <label for="message" class="form-label">
+                MESSAGE
+              </label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12 mb-3">
+              <button type="submit" class="btn btn-primary border-warning">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.049107914739!2d96.12428067427958!3d16.82391971879468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194cb785e8989%3A0x641d957621ed6861!2sPadaythar%20St%2C%20Yangon!5e0!3m2!1sen!2smm!4v1690733444142!5m2!1sen!2smm" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+       </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
+        <path fill="#fff" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,218.7C384,203,480,117,576,96C672,75,768,117,864,149.3C960,181,1056,203,1152,186.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+    <!-- Contact section -->
+
+    <!-- Footer section -->
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-4 text-center">
+            <i class="fa-solid fa-envelope fa-beat text-primary px-2"></i>
+            <span>Email</span>
+            <div class="pt-2">
+              <a href="mailto:hsumyatnoe2182001" class="to-me">
+                hsumyatnoe2182001
+              </a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
+            <i class="fa-solid fa-phone fa-beat text-primary px-2"></i>
+            <span class="">Phone</span>
+            <div class="pt-2">
+              <a href="tel:+95983090112" class="to-me">
+                +95 983090112
+              </a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
+            <i class="fa-solid fa-share-nodes fa-beat text-primary px-2"></i>
+            <span class="">Social Media</span>
+            <div class="list-group list-group-horizontal justify-content-center pt-2">
+              <a href="#" class="list-group-item">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="list-group-item">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="list-group-item">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="#" class="list-group-item">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+            
+          </div> 
+        </div>
+      </div>
+      <div class="bg-primary text-center text-light mt-5 py-1">
+        copyright&copy;hsumyatnoe
+      </div>
+    </footer>
+    <!-- Footer section -->
+
+    <!-- Bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+     <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
